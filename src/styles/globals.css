@@ -2459,4 +2459,26 @@ button,
     color: rgb(243 244 246/var(--tw-text-opacity,1))
 }
 
+/* Dark mode form styling */
+.dark label {
+  color: #e5e5e5 !important;
+}
+
+.dark select option {
+  color: #e5e5e5 !important;
+  background: #1a1a1a !important;
+}
+
+.dark input[type="checkbox"] + label,
+.dark input[type="radio"] + label {
+  color: #e5e5e5 !important;
+}
+
+.dark input[type="checkbox"]:checked + label:before,
+.dark input[type="radio"]:checked + label:before {
+  background: #e5e5e5 !important;
+  border-color: #e5e5e5 !important;
+  color: #1a1a1a !important;
+}
+
 
