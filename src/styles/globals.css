@@ -2464,9 +2464,21 @@ button,
   color: #e5e5e5 !important;
 }
 
+.dark input[type="text"],
+.dark input[type="password"], 
+.dark input[type="email"],
+.dark input[type="tel"],
+.dark input[type="search"],
+.dark input[type="url"],
+.dark select,
+.dark textarea {
+  color: #1a1a1a !important;
+  background: #ffffff !important;
+}
+
 .dark select option {
-  color: #e5e5e5 !important;
-  background: #1a1a1a !important;
+  color: #1a1a1a !important;
+  background: #ffffff !important;
 }
 
 .dark input[type="checkbox"] + label,
