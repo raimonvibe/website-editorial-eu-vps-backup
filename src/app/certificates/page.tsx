@@ -120,13 +120,11 @@ export default function Certificates() {
                 <ul className="actions">
                   <li><a href="https://codewithmosh.com/p/ultimate-nextjs-series" className="button" target="_blank" rel="noreferrer">More</a></li>
                 </ul>
-              </article>
-
-
-            </div>
+               </div>  
           </section>
-        </div>
-      </div>
+          
+        </div>  
+      </div>  
       <Sidebar />
     </div>
   )
