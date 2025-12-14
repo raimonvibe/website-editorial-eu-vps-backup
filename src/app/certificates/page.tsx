@@ -6,19 +6,15 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Certificates - Raimonvibe',
-  description: 'View my professional certificates and qualifications in programming, web development, data science, and more. Continuous learning and skill development.',
-  keywords: 'certificates, programming, web development, Python, JavaScript, React, Next.js, data science, machine learning, professional development',
+  description: 'View my professional certificates and qualifications in programming, web development, and more. Continuous learning and skill development.',
+  keywords: 'certificates, programming, web development, JavaScript, React, Next.js, professional development',
   openGraph: {
     title: 'Certificates - Raimonvibe',
-    description: 'View my professional certificates and qualifications in programming, web development, data science, and more.',
-    url: 'https://www.raimonvibe.com/certificates',
-    siteName: 'Raimonvibe',
-    type: 'website',
+    description: 'View my professional certificates and qualifications in programming, web development, and more.',
   },
   twitter: {
-    card: 'summary_large_image',
     title: 'Certificates - Raimonvibe',
-    description: 'View my professional certificates and qualifications in programming, web development, data science, and more.',
+    description: 'View my professional certificates and qualifications in programming, web development, and more.',
   },
 }
 
