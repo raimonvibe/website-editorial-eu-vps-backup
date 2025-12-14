@@ -118,7 +118,8 @@ export default function Certificates() {
                 </ul>
                </div>  
           </section>
-      </div>  
+      </div> 
+        </div>
       <Sidebar />
   )
 }
