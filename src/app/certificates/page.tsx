@@ -124,6 +124,5 @@ export default function Certificates() {
           </section>
       </div>  
       <Sidebar />
-    </div>
   )
 }
