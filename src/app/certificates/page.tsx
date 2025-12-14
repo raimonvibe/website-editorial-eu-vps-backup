@@ -32,7 +32,7 @@ export default function Certificates() {
             
             <p>Here are my professional certificates and qualifications that demonstrate my commitment to continuous learning and skill development. Each certificate represents knowledge gained through comprehensive courses in programming, web development, and other technical fields.</p>
          
-
+            <div className="posts">
               <article>
                 <a href="https://codewithmosh.com/p/javascript-basics-for-beginners" className="image">
                   <Image src="/images/JavaScript1.webp" alt="My JavaScript 1 certificate" width={400} height={300} />
@@ -77,11 +77,6 @@ export default function Certificates() {
                 </ul>
               </article>
 
-     
-
-
-
-
               <article>
                 <a href="https://www.udemy.com/course/assertiveness-training-course/" className="image">
                   <Image src="/images/assertive.webp" alt="My Assertiveness certificate" width={400} height={300} />
@@ -92,8 +87,6 @@ export default function Certificates() {
                   <li><a href="https://www.udemy.com/course/assertiveness-training-course/" className="button" target="_blank" rel="noreferrer">More</a></li>
                 </ul>
               </article>
-
-
 
               <article>
                 <a href="https://products.thecodedose.com/javascript-mastery" className="image">
@@ -106,7 +99,6 @@ export default function Certificates() {
                 </ul>
               </article>
            
-
               <article>
                 <a href="https://codewithmosh.com/p/ultimate-nextjs-series" className="image">
                   <Image src="/images/nextjs1.webp" alt="My certificate for mastering Next.js 13 with TypeScript" width={400} height={300} />
@@ -116,10 +108,12 @@ export default function Certificates() {
                 <ul className="actions">
                   <li><a href="https://codewithmosh.com/p/ultimate-nextjs-series" className="button" target="_blank" rel="noreferrer">More</a></li>
                 </ul>
-               </div>  
+              </article>
+            </div>
           </section>
-      </div> 
         </div>
+      </div>
       <Sidebar />
+    </div>
   )
 }
