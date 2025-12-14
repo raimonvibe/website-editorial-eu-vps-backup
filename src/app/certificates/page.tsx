@@ -30,7 +30,7 @@ export default function Certificates() {
               <h1>Certificates</h1>
             </header>
             
-            <p>Here are my professional certificates and qualifications that demonstrate my commitment to continuous learning and skill development. Each certificate represents knowledge gained through comprehensive courses in programming, web development, data science, and other technical fields.</p>
+            <p>Here are my professional certificates and qualifications that demonstrate my commitment to continuous learning and skill development. Each certificate represents knowledge gained through comprehensive courses in programming, web development, and other technical fields.</p>
          
 
               <article>
